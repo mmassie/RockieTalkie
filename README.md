@@ -1,2 +1,2 @@
 # Rocky-Talkie
-A chat app to check real-time occupancy at Adventure Rock climbing gym
+A lambda chat app to check real-time occupancy at Adventure Rock climbing gym.
