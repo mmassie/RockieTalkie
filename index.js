@@ -30,4 +30,5 @@ exports.handler = async (event, context) => {
       body: JSON.stringify({ message: 'Error scraping occupancy data' })
     };
   }
+  // echo Response;
 };
