@@ -1,5 +1,5 @@
-import axios from 'axios';
-import { parse } from 'node-html-parser';
+//import axios from 'axios';
+//import { parse } from 'node-html-parser';
 
 const axios = require('axios');
 const { parse } = require('node-html-parser');
@@ -33,5 +33,5 @@ exports.handler = async (event, context) => {
       body: JSON.stringify({ message: 'Error scraping occupancy data' })
     };
   }
-  echo JSON.stringify(occupancy);
+
 };
