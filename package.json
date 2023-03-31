@@ -1,6 +1,23 @@
 {
+  "name": "Rockie-Talkie",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=7.6.0",
+    "npm": ">=4.1.2"
+  },
+  
+  "author": "Mike Massie",
+  "license": "ISC",
+  "description": "",
   "dependencies": {
-    "axios": "^1.3.4",
+    "node-fetch": "^3.3.1",
     "node-html-parser": "^6.1.5"
   }
 }
